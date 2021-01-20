@@ -1,6 +1,6 @@
 # Proyecto Ficheros Java
 
-Realiza en Java un programa que permita trabajar el Acceso a Ficheros. Este programa deberá tener una serie de opciones disponibles para el usuario:
+Realiza en Java un programa que permita trabajar el **Acceso a Ficheros**. Este programa deberá tener una serie de opciones disponibles para el usuario:
 
 - Comprobar que una carpeta o fichero existe,
 - Crear, eliminar, renombrar, mover fichero y carpeta
@@ -9,7 +9,7 @@ Realiza en Java un programa que permita trabajar el Acceso a Ficheros. Este prog
 - Visualizar nombre y ruta de un fichero,
 - Otros que consideres interesantes
 
-Es obligatorio utilizar interfaces gráficas. Además se deberá añadir incluir tu nombre en el proyecto, el cuál deberá aparecer en cada pantalla del programa.
+**Es obligatorio utilizar interfaces gráficas. Además se deberá añadir incluir tu nombre en el proyecto, el cuál deberá aparecer en cada pantalla del programa.**
 
 Una posible interfaz para este programa podría ser la siguiente:
 
