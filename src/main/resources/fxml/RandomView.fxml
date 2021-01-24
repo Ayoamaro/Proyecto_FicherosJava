@@ -1,8 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
 
-<GridPane xmlns:fx="http://javafx.com/fxml/1">
-	<!-- TODO Add Nodes -->
+
+<GridPane fx:id="view" hgap="5.0" minHeight="400.0" minWidth="600.0" vgap="5.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <rowConstraints>
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="NEVER" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+   </rowConstraints>
+   <columnConstraints>
+      <ColumnConstraints hgrow="NEVER" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="NEVER" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="NEVER" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+   </columnConstraints>
+   <children>
+      <Label fx:id="fileLBL" text="Nombre fichero" GridPane.halignment="CENTER" />
+      <TextField fx:id="routeTXT" promptText="Introduzca el nombre del fichero..." GridPane.columnIndex="1" GridPane.columnSpan="2147483647" />
+      <VBox alignment="TOP_CENTER" spacing="5.0" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.rowSpan="2147483647">
+         <children>
+            <Button fx:id="contentfileBTN" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onShowContentFileAction" text="Ver contenido del fichero" />
+            <TextField fx:id="teamidTXT" promptText="Introduzca el ID del equipo..." />
+            <TextField fx:id="nameteamTXT" promptText="Introduzca el nombre del equipo..." />
+            <TextField fx:id="codleagueTXT" promptText="Introduzca el código de liga..." />
+            <TextField fx:id="locationTXT" promptText="Introduzca la localidad..." />
+            <TextField fx:id="counttrophiesTXT" promptText="Introduzca el número de copas..." />
+            <CheckBox fx:id="internationalCHK" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" text="Internacional" />
+            <Separator prefWidth="200.0" />
+            <Button fx:id="registryBTN" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onInsertRegistryAction" text="Insertar registro" />
+            <Button fx:id="modifytrophiesBTN" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onModifyTrophiesAction" text="Modificar copas (ID, copas...)" />
+            <Button fx:id="datateamBTN" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onShowDataTeamAction" text="Ver datos de equipo por ID" />
+         </children>
+      </VBox>
+      <TextArea fx:id="contentfileTXT" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.columnSpan="2147483647" GridPane.rowIndex="1" GridPane.rowSpan="2147483647" />
+   </children>
+   <padding>
+      <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+   </padding>
 </GridPane>
-
