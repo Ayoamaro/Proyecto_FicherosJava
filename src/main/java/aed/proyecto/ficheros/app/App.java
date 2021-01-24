@@ -24,7 +24,7 @@ public class App extends Application{
 		Scene scene = new Scene(controller.getView());
 		
 		primaryStage.setScene(scene);
-		primaryStage.setTitle("Acceso a ficheros - Ayoze Amaro Estévez");
+		primaryStage.setTitle("Acceso a ficheros en Java");
 		primaryStage.getIcons().add(new Image("images/scene-builder-icon-32x32.png"));
 		primaryStage.show();	
 	}
