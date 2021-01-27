@@ -26,6 +26,7 @@
       <Futbolista fechaInicio="2012-08-27" fechaFin="2021-06-30">Luka Modric</Futbolista>
       <Futbolista fechaInicio="2005-08-31" fechaFin="2021-06-30">Sergio Ramos</Futbolista>
       <Futbolista fechaInicio="2018-08-09" fechaFin="2024-06-30">Thibaut Courtois</Futbolista>
+      <Futbolista fechaInicio="2015-05-09" fechaFin="2021-10-12">Ronaldinho</Futbolista>
     </Contratos>
   </Equipo>
   <Equipo nomEquipo="Atlético de Madrid" copasGanadas="10">

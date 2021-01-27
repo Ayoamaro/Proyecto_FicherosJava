@@ -80,7 +80,7 @@ public class FilesController implements Initializable {
 	void onCreateAction(ActionEvent event) { 
 		
 		try {
-			File selectedfile = new File(routeTXT.textProperty().get() + "\\" + routeTXT.textProperty().get());
+			File selectedfile = new File(routeTXT.textProperty().get() + "\\" + filesfolderTXT.textProperty().get());
 			if (filesCHK.isSelected()) {
 				if (selectedfile.createNewFile()) { changeTXT.setText("No existe - creado"); }
 				else { changeTXT.setText("Ya existe"); }	
