@@ -13,4 +13,4 @@ Realiza en Java un programa que permita trabajar el **Acceso a Ficheros**. Este 
 
 Una posible interfaz para este programa podría ser la siguiente:
 
-![](https://github.com/Ayoamaro/Proyecto_FicherosJava/blob/main/docs/images/interfaz.PNG?raw=true)
+![](https://github.com/Ayoamaro/Proyecto_FicherosJava/blob/main/docs/images/interfaz_accesoficheros.PNG?raw=true)
